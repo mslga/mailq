@@ -11,8 +11,8 @@ Lightweight email-sending utility written in Go
 |   -h   |  SMTP server FQDN |  "smtp.company.com""  |
 |   -p   |  SMTP server port number  |  25  |
 |   -i   |  Skip TLS certificate verification (use only for trusted SMTP servers) |  false  |
-|   -s   |  Mail sender |  "noreply@company.com"  |
-|   -w   |  SMTP password (optional) |  "noreply@company.com"  |
+|   -s   |  Mail sender |  "mailq.sender@company.com"  |
+|   -w   |  SMTP password (optional) |  ""  |
 |   -r   |  Mail recipients. Separate multiple recipients with spaces or commas |  "recipient@company.com"  |
 |   -u   |  Mail subject  |  "Empty subject"  |
 |   -m   |  Mail message in HTML format  |  "Empty message"  |
